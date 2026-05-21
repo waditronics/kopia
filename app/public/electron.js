@@ -532,7 +532,7 @@ app.on("ready", () => {
 
   allConfigs().forEach((repoID) => serverForRepo(repoID).actuateServer());
 
-  if (isFirstRun()) {
+  if (process.env["KOPIA_UI_ALWAYS_SHOW"] || isFirstRun()) {
     // open all repo windows on first run.
     showAllRepoWindows();
 

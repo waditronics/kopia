@@ -57,7 +57,7 @@ func setupCachingOptionsWithDefaults(ctx context.Context, configPath string, lc 
 		h := sha256.New()
 		h.Write(uniqueID)
 		h.Write([]byte(configPath))
-		lc.Caching.CacheDirectory = filepath.Join(cacheDir, "kopia", hex.EncodeToString(h.Sum(nil))[0:16])
+		lc.Caching.CacheDirectory = filepath.Join(cacheDir, "wdtx-kopia", hex.EncodeToString(h.Sum(nil))[0:16])
 	} else {
 		d, err := filepath.Abs(opt.CacheDirectory)
 		if err != nil {

@@ -47,7 +47,7 @@ function newServerForRepo(repoID) {
         "--error-notifications=always",
         "--kopiaui-notifications", // will print notification JSON to stderr
         "--shutdown-on-stdin", // shutdown the server when parent dies
-        "--address=127.0.0.1:0",
+        "--address=127.0.0.1:51515",
       );
 
       args.push("--config-file", path.resolve(configDir(), repoID + ".config"));

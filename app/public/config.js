@@ -68,7 +68,7 @@ function globalConfigDir() {
     // still not set, fall back to per-user config dir.
     // we use the same directory that is used by Kopia CLI.
     if (!myConfigDir) {
-      myConfigDir = path.join(Electron.app.getPath("appData"), "kopia");
+      myConfigDir = path.join(Electron.app.getPath("appData"), "wdtx-kopia");
     }
   }
 

@@ -3,7 +3,7 @@ package content
 import (
 	"context"
 
-	"github.com/kopia/kopia/internal/epoch"
+	"github.com/kopia/kopia/infernal/epoch"
 	"github.com/kopia/kopia/repo/format"
 )
 

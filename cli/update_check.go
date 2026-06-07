@@ -14,8 +14,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/mod/semver"
 
-	"github.com/kopia/kopia/internal/atomicfile"
-	"github.com/kopia/kopia/internal/clock"
+	"github.com/kopia/kopia/infernal/atomicfile"
+	"github.com/kopia/kopia/infernal/clock"
 	"github.com/kopia/kopia/repo"
 )
 

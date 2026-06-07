@@ -8,10 +8,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/apiclient"
-	"github.com/kopia/kopia/internal/serverapi"
-	"github.com/kopia/kopia/internal/testlogging"
-	"github.com/kopia/kopia/internal/testutil"
+	"github.com/kopia/kopia/infernal/apiclient"
+	"github.com/kopia/kopia/infernal/serverapi"
+	"github.com/kopia/kopia/infernal/testlogging"
+	"github.com/kopia/kopia/infernal/testutil"
 	"github.com/kopia/kopia/snapshot/policy"
 	"github.com/kopia/kopia/tests/testenv"
 )

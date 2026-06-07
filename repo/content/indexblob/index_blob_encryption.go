@@ -5,13 +5,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/blobcrypto"
-	"github.com/kopia/kopia/internal/blobparam"
-	"github.com/kopia/kopia/internal/cache"
-	"github.com/kopia/kopia/internal/contentlog"
-	"github.com/kopia/kopia/internal/contentlog/logparam"
-	"github.com/kopia/kopia/internal/gather"
-	"github.com/kopia/kopia/internal/timetrack"
+	"github.com/kopia/kopia/infernal/blobcrypto"
+	"github.com/kopia/kopia/infernal/blobparam"
+	"github.com/kopia/kopia/infernal/cache"
+	"github.com/kopia/kopia/infernal/contentlog"
+	"github.com/kopia/kopia/infernal/contentlog/logparam"
+	"github.com/kopia/kopia/infernal/gather"
+	"github.com/kopia/kopia/infernal/timetrack"
 	"github.com/kopia/kopia/repo/blob"
 )
 

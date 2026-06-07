@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/apiclient"
+	"github.com/kopia/kopia/infernal/apiclient"
 	"github.com/kopia/kopia/repo/blob/throttling"
 )
 

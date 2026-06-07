@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/mockfs"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/mockfs"
 	"github.com/kopia/kopia/snapshot"
 	"github.com/kopia/kopia/snapshot/snapshotfs"
 )

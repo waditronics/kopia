@@ -11,8 +11,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/kopia/kopia/internal/gather"
-	"github.com/kopia/kopia/internal/parallelwork"
+	"github.com/kopia/kopia/infernal/gather"
+	"github.com/kopia/kopia/infernal/parallelwork"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/logging"
 )

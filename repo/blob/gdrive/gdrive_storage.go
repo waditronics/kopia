@@ -19,9 +19,9 @@ import (
 	"google.golang.org/api/googleapi"
 	"google.golang.org/api/option"
 
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/iocopy"
-	"github.com/kopia/kopia/internal/retry"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/iocopy"
+	"github.com/kopia/kopia/infernal/retry"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/blob/retrying"
 	"github.com/kopia/kopia/repo/logging"

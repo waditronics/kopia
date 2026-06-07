@@ -19,9 +19,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	htpasswd "github.com/tg123/go-htpasswd"
 
-	"github.com/kopia/kopia/internal/auth"
-	"github.com/kopia/kopia/internal/insecureserverbind"
-	"github.com/kopia/kopia/internal/server"
+	"github.com/kopia/kopia/infernal/auth"
+	"github.com/kopia/kopia/infernal/insecureserverbind"
+	"github.com/kopia/kopia/infernal/server"
 	"github.com/kopia/kopia/notification"
 	"github.com/kopia/kopia/notification/sender/jsonsender"
 	"github.com/kopia/kopia/repo"

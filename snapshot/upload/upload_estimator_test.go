@@ -10,8 +10,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/kopia/kopia/internal/mockfs"
-	vsi "github.com/kopia/kopia/internal/volumesizeinfo"
+	"github.com/kopia/kopia/infernal/mockfs"
+	vsi "github.com/kopia/kopia/infernal/volumesizeinfo"
 	"github.com/kopia/kopia/repo/logging"
 	"github.com/kopia/kopia/snapshot/policy"
 	"github.com/kopia/kopia/snapshot/upload"

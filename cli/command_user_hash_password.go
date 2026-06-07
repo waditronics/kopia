@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/user"
+	"github.com/kopia/kopia/infernal/user"
 	"github.com/kopia/kopia/repo"
 )
 

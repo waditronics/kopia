@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kopia/kopia/internal/timetrack"
-	"github.com/kopia/kopia/internal/units"
+	"github.com/kopia/kopia/infernal/timetrack"
+	"github.com/kopia/kopia/infernal/units"
 	"github.com/kopia/kopia/snapshot/restore"
 )
 

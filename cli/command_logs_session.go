@@ -10,8 +10,8 @@ import (
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/repodiag"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/repodiag"
 	"github.com/kopia/kopia/repo/blob"
 )
 

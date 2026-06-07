@@ -15,7 +15,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/testlogging"
+	"github.com/kopia/kopia/infernal/testlogging"
 )
 
 const expirationTime = 10 * time.Hour

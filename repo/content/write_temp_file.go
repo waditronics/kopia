@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/cache"
+	"github.com/kopia/kopia/infernal/cache"
 )
 
 type file interface {

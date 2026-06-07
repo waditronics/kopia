@@ -9,8 +9,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/ospath"
-	"github.com/kopia/kopia/internal/testutil"
+	"github.com/kopia/kopia/infernal/ospath"
+	"github.com/kopia/kopia/infernal/testutil"
 	"github.com/kopia/kopia/repo/content"
 )
 

@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/clock"
+	"github.com/kopia/kopia/infernal/clock"
 	"github.com/kopia/kopia/repo/manifest/testdata"
 )
 

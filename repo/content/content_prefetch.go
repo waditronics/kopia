@@ -6,11 +6,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/kopia/kopia/internal/blobparam"
-	"github.com/kopia/kopia/internal/contentlog"
-	"github.com/kopia/kopia/internal/contentlog/logparam"
-	"github.com/kopia/kopia/internal/contentparam"
-	"github.com/kopia/kopia/internal/gather"
+	"github.com/kopia/kopia/infernal/blobparam"
+	"github.com/kopia/kopia/infernal/contentlog"
+	"github.com/kopia/kopia/infernal/contentlog/logparam"
+	"github.com/kopia/kopia/infernal/contentparam"
+	"github.com/kopia/kopia/infernal/gather"
 	"github.com/kopia/kopia/repo/blob"
 )
 

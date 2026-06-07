@@ -13,11 +13,11 @@ import (
 
 	"github.com/kopia/kopia/fs"
 	"github.com/kopia/kopia/fs/localfs"
-	"github.com/kopia/kopia/internal/atomicfile"
-	"github.com/kopia/kopia/internal/iocopy"
-	"github.com/kopia/kopia/internal/ospath"
-	"github.com/kopia/kopia/internal/sparsefile"
-	"github.com/kopia/kopia/internal/stat"
+	"github.com/kopia/kopia/infernal/atomicfile"
+	"github.com/kopia/kopia/infernal/iocopy"
+	"github.com/kopia/kopia/infernal/ospath"
+	"github.com/kopia/kopia/infernal/sparsefile"
+	"github.com/kopia/kopia/infernal/stat"
 	"github.com/kopia/kopia/snapshot"
 )
 

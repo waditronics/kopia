@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/retry"
+	"github.com/kopia/kopia/infernal/retry"
 	"github.com/kopia/kopia/repo/blob"
 )
 

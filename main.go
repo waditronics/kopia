@@ -15,7 +15,7 @@ import (
 	"github.com/alecthomas/kingpin/v2"
 
 	"github.com/kopia/kopia/cli"
-	"github.com/kopia/kopia/internal/logfile"
+	"github.com/kopia/kopia/infernal/logfile"
 	"github.com/kopia/kopia/repo"
 )
 

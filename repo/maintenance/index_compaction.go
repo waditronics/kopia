@@ -3,7 +3,7 @@ package maintenance
 import (
 	"context"
 
-	"github.com/kopia/kopia/internal/contentlog"
+	"github.com/kopia/kopia/infernal/contentlog"
 	"github.com/kopia/kopia/repo/content/indexblob"
 	"github.com/kopia/kopia/repo/maintenancestats"
 )

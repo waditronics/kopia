@@ -3,8 +3,8 @@ package maintenancestats
 import (
 	"fmt"
 
-	"github.com/kopia/kopia/internal/contentlog"
-	"github.com/kopia/kopia/internal/units"
+	"github.com/kopia/kopia/infernal/contentlog"
+	"github.com/kopia/kopia/infernal/units"
 )
 
 const cleanupLogsStatsKind = "cleanupLogsStats"

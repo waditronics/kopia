@@ -7,7 +7,7 @@ import (
 
 	"github.com/alecthomas/kingpin/v2"
 
-	"github.com/kopia/kopia/internal/impossible"
+	"github.com/kopia/kopia/infernal/impossible"
 	"github.com/kopia/kopia/snapshot"
 )
 

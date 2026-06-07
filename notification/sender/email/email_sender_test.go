@@ -8,7 +8,7 @@ import (
 	smtpmock "github.com/mocktools/go-smtp-mock/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/testlogging"
+	"github.com/kopia/kopia/infernal/testlogging"
 	"github.com/kopia/kopia/notification/sender"
 	"github.com/kopia/kopia/notification/sender/email"
 )

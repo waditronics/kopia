@@ -8,7 +8,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/kopia/kopia/internal/zaplogutil"
+	"github.com/kopia/kopia/infernal/zaplogutil"
 )
 
 // Logger is used by Kopia to emit various logs.

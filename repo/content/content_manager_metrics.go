@@ -1,7 +1,7 @@
 package content
 
 import (
-	"github.com/kopia/kopia/internal/metrics"
+	"github.com/kopia/kopia/infernal/metrics"
 )
 
 type metricsStruct struct {

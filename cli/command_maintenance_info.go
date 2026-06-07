@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/units"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/units"
 	"github.com/kopia/kopia/repo"
 	"github.com/kopia/kopia/repo/maintenance"
 	"github.com/kopia/kopia/repo/maintenancestats"

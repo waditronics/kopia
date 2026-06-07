@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/mockfs"
-	"github.com/kopia/kopia/internal/repotesting"
-	"github.com/kopia/kopia/internal/testutil"
+	"github.com/kopia/kopia/infernal/mockfs"
+	"github.com/kopia/kopia/infernal/repotesting"
+	"github.com/kopia/kopia/infernal/testutil"
 	"github.com/kopia/kopia/repo"
 	"github.com/kopia/kopia/snapshot"
 	"github.com/kopia/kopia/snapshot/snapshotfs"

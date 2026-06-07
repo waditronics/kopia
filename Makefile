@@ -389,7 +389,7 @@ ifneq ($(GOOS),windows)
 	# whitelisted internal packages.
 	find repo/ -name '*.go' | xargs grep "^\t\"github.com/kopia/kopia" \
 	   | grep -v -e github.com/kopia/kopia/repo \
-	             -e github.com/kopia/kopia/internal \
+	             -e github.com/kopia/kopia/infernal \
 	             -e github.com/kopia/kopia/issues && exit 1 || echo repo/ layering ok
 endif
 

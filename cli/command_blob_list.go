@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/kopia/kopia/internal/epoch"
-	"github.com/kopia/kopia/internal/repodiag"
+	"github.com/kopia/kopia/infernal/epoch"
+	"github.com/kopia/kopia/infernal/repodiag"
 	"github.com/kopia/kopia/repo"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/content/indexblob"

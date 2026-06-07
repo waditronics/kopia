@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/faketime"
-	"github.com/kopia/kopia/internal/repotesting"
+	"github.com/kopia/kopia/infernal/faketime"
+	"github.com/kopia/kopia/infernal/repotesting"
 	"github.com/kopia/kopia/repo"
 	"github.com/kopia/kopia/repo/maintenance"
 	"github.com/kopia/kopia/repo/object"

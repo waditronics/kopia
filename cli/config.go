@@ -12,7 +12,7 @@ import (
 
 	"github.com/kopia/kopia/fs"
 	"github.com/kopia/kopia/fs/localfs"
-	"github.com/kopia/kopia/internal/ospath"
+	"github.com/kopia/kopia/infernal/ospath"
 	"github.com/kopia/kopia/repo"
 )
 

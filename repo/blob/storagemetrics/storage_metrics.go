@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/kopia/kopia/internal/metrics"
-	"github.com/kopia/kopia/internal/timetrack"
+	"github.com/kopia/kopia/infernal/metrics"
+	"github.com/kopia/kopia/infernal/timetrack"
 	"github.com/kopia/kopia/repo/blob"
 )
 

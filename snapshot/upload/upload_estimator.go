@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/kopia/kopia/fs"
-	vsi "github.com/kopia/kopia/internal/volumesizeinfo"
+	vsi "github.com/kopia/kopia/infernal/volumesizeinfo"
 	"github.com/kopia/kopia/repo/logging"
 	"github.com/kopia/kopia/snapshot/policy"
 )

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/mockfs"
+	"github.com/kopia/kopia/infernal/mockfs"
 	"github.com/kopia/kopia/snapshot"
 )
 

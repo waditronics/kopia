@@ -7,7 +7,7 @@ import (
 	"github.com/klauspost/reedsolomon"
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/gather"
+	"github.com/kopia/kopia/infernal/gather"
 	"github.com/kopia/kopia/repo/encryption"
 )
 

@@ -11,8 +11,8 @@ import (
 
 	"github.com/kopia/kopia/fs"
 	"github.com/kopia/kopia/fs/ignorefs"
-	"github.com/kopia/kopia/internal/mockfs"
-	"github.com/kopia/kopia/internal/testlogging"
+	"github.com/kopia/kopia/infernal/mockfs"
+	"github.com/kopia/kopia/infernal/testlogging"
 	"github.com/kopia/kopia/snapshot/policy"
 )
 

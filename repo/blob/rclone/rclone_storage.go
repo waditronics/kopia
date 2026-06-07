@@ -21,8 +21,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/osexec"
-	"github.com/kopia/kopia/internal/tlsutil"
+	"github.com/kopia/kopia/infernal/osexec"
+	"github.com/kopia/kopia/infernal/tlsutil"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/blob/webdav"
 	"github.com/kopia/kopia/repo/logging"

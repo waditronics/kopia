@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/testlogging"
+	"github.com/kopia/kopia/infernal/testlogging"
 	"github.com/kopia/kopia/notification"
 	"github.com/kopia/kopia/notification/sender"
 	"github.com/kopia/kopia/notification/sender/jsonsender"

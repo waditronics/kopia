@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/repotesting"
+	"github.com/kopia/kopia/infernal/repotesting"
 )
 
 func TestNotificationTemplatesAutocomplete(t *testing.T) {

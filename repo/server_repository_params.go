@@ -1,8 +1,8 @@
 package repo
 
 import (
-	"github.com/kopia/kopia/internal/cache"
-	"github.com/kopia/kopia/internal/metrics"
+	"github.com/kopia/kopia/infernal/cache"
+	"github.com/kopia/kopia/infernal/metrics"
 	"github.com/kopia/kopia/repo/format"
 	"github.com/kopia/kopia/repo/hashing"
 )

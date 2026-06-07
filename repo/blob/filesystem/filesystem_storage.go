@@ -14,10 +14,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/dirutil"
-	"github.com/kopia/kopia/internal/iocopy"
-	"github.com/kopia/kopia/internal/retry"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/dirutil"
+	"github.com/kopia/kopia/infernal/iocopy"
+	"github.com/kopia/kopia/infernal/retry"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/blob/sharded"
 	"github.com/kopia/kopia/repo/logging"

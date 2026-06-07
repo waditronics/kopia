@@ -9,7 +9,7 @@ import (
 	"github.com/kopia/kopia/fs"
 	"github.com/kopia/kopia/fs/cachefs"
 	"github.com/kopia/kopia/fs/loggingfs"
-	"github.com/kopia/kopia/internal/mount"
+	"github.com/kopia/kopia/infernal/mount"
 	"github.com/kopia/kopia/repo"
 	"github.com/kopia/kopia/snapshot/snapshotfs"
 )

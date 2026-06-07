@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kopia/kopia/internal/contentlog"
+	"github.com/kopia/kopia/infernal/contentlog"
 )
 
 const compactIndexesStatsKind = "compactIndexesStats"

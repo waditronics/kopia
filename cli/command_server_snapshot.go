@@ -3,7 +3,7 @@ package cli
 import (
 	"context"
 
-	"github.com/kopia/kopia/internal/apiclient"
+	"github.com/kopia/kopia/infernal/apiclient"
 )
 
 type commandServerUpload struct {

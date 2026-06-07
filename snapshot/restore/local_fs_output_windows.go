@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"
 
-	"github.com/kopia/kopia/internal/ospath"
+	"github.com/kopia/kopia/infernal/ospath"
 )
 
 //nolint:revive

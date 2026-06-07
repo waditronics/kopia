@@ -20,8 +20,8 @@ import (
 	"github.com/coreos/go-systemd/v22/activation"
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/insecureserverbind"
-	"github.com/kopia/kopia/internal/tlsutil"
+	"github.com/kopia/kopia/infernal/insecureserverbind"
+	"github.com/kopia/kopia/infernal/tlsutil"
 )
 
 const oneDay = 24 * time.Hour

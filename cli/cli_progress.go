@@ -13,8 +13,8 @@ import (
 	"github.com/fatih/color"
 	"golang.org/x/term"
 
-	"github.com/kopia/kopia/internal/timetrack"
-	"github.com/kopia/kopia/internal/units"
+	"github.com/kopia/kopia/infernal/timetrack"
+	"github.com/kopia/kopia/infernal/units"
 	"github.com/kopia/kopia/snapshot/upload"
 )
 

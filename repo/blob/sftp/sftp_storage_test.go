@@ -18,12 +18,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/blobtesting"
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/providervalidation"
-	"github.com/kopia/kopia/internal/testlogging"
-	"github.com/kopia/kopia/internal/testutil"
-	"github.com/kopia/kopia/internal/timetrack"
+	"github.com/kopia/kopia/infernal/blobtesting"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/providervalidation"
+	"github.com/kopia/kopia/infernal/testlogging"
+	"github.com/kopia/kopia/infernal/testutil"
+	"github.com/kopia/kopia/infernal/timetrack"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/blob/sftp"
 )

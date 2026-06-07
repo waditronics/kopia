@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/repotesting"
+	"github.com/kopia/kopia/infernal/repotesting"
 	"github.com/kopia/kopia/notification/notifyprofile"
 	"github.com/kopia/kopia/notification/sender"
 )

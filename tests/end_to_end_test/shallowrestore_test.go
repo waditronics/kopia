@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/kopia/kopia/fs/localfs"
-	"github.com/kopia/kopia/internal/ospath"
+	"github.com/kopia/kopia/infernal/ospath"
 	"github.com/kopia/kopia/repo/object"
 	"github.com/kopia/kopia/snapshot"
 	"github.com/kopia/kopia/snapshot/restore"

@@ -14,9 +14,9 @@ import (
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/iocopy"
-	"github.com/kopia/kopia/internal/timestampmeta"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/iocopy"
+	"github.com/kopia/kopia/infernal/timestampmeta"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/blob/retrying"
 )

@@ -7,7 +7,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/kopia/kopia/internal/testutil"
+	"github.com/kopia/kopia/infernal/testutil"
 )
 
 func TestMain(m *testing.M) { testutil.MyTestMain(m) }

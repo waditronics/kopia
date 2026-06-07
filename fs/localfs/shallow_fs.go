@@ -10,8 +10,8 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/atomicfile"
-	"github.com/kopia/kopia/internal/ospath"
+	"github.com/kopia/kopia/infernal/atomicfile"
+	"github.com/kopia/kopia/infernal/ospath"
 	"github.com/kopia/kopia/snapshot"
 )
 

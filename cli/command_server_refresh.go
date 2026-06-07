@@ -3,8 +3,8 @@ package cli
 import (
 	"context"
 
-	"github.com/kopia/kopia/internal/apiclient"
-	"github.com/kopia/kopia/internal/serverapi"
+	"github.com/kopia/kopia/infernal/apiclient"
+	"github.com/kopia/kopia/infernal/serverapi"
 )
 
 type commandServerRefresh struct {

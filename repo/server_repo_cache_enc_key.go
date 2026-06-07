@@ -1,6 +1,6 @@
 package repo
 
-import "github.com/kopia/kopia/internal/crypto"
+import "github.com/kopia/kopia/infernal/crypto"
 
 // DefaultServerRepoCacheKeyDerivationAlgorithm is the default algorithm used to
 // derive an encryption key for the local cache when connecting to a repository

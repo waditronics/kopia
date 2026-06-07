@@ -12,7 +12,7 @@ import (
 	"strconv"
 
 	"github.com/kopia/kopia/cli"
-	"github.com/kopia/kopia/internal/clock"
+	"github.com/kopia/kopia/infernal/clock"
 	"github.com/kopia/kopia/tests/robustness"
 	"github.com/kopia/kopia/tests/tools/fswalker"
 )

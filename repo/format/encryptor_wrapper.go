@@ -1,7 +1,7 @@
 package format
 
 import (
-	"github.com/kopia/kopia/internal/gather"
+	"github.com/kopia/kopia/infernal/gather"
 	"github.com/kopia/kopia/repo/encryption"
 )
 

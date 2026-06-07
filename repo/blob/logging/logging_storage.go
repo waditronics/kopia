@@ -8,10 +8,10 @@ import (
 
 	"go.opentelemetry.io/otel"
 
-	"github.com/kopia/kopia/internal/blobparam"
-	"github.com/kopia/kopia/internal/contentlog"
-	"github.com/kopia/kopia/internal/contentlog/logparam"
-	"github.com/kopia/kopia/internal/timetrack"
+	"github.com/kopia/kopia/infernal/blobparam"
+	"github.com/kopia/kopia/infernal/contentlog"
+	"github.com/kopia/kopia/infernal/contentlog/logparam"
+	"github.com/kopia/kopia/infernal/timetrack"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/logging"
 )

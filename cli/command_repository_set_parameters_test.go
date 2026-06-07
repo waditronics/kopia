@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/blobtesting"
-	"github.com/kopia/kopia/internal/repotesting"
-	"github.com/kopia/kopia/internal/testutil"
+	"github.com/kopia/kopia/infernal/blobtesting"
+	"github.com/kopia/kopia/infernal/repotesting"
+	"github.com/kopia/kopia/infernal/testutil"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/format"
 	"github.com/kopia/kopia/tests/testenv"

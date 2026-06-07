@@ -16,7 +16,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/kopia/kopia/cli"
-	_ "github.com/kopia/kopia/internal/logfile"
+	_ "github.com/kopia/kopia/infernal/logfile"
 )
 
 //nolint:gochecknoglobals

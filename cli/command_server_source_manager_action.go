@@ -8,8 +8,8 @@ import (
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/apiclient"
-	"github.com/kopia/kopia/internal/serverapi"
+	"github.com/kopia/kopia/infernal/apiclient"
+	"github.com/kopia/kopia/infernal/serverapi"
 )
 
 // commandServerSourceManagerAction encapsulates common logic for all commands

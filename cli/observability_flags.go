@@ -24,8 +24,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	oteltrace "go.opentelemetry.io/otel/trace"
 
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/gather"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/gather"
 	"github.com/kopia/kopia/repo"
 )
 

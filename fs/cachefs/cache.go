@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/clock"
+	"github.com/kopia/kopia/infernal/clock"
 	"github.com/kopia/kopia/repo/logging"
 	"github.com/kopia/kopia/repo/object"
 )

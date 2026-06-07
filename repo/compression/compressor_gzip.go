@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/freepool"
-	"github.com/kopia/kopia/internal/iocopy"
+	"github.com/kopia/kopia/infernal/freepool"
+	"github.com/kopia/kopia/infernal/iocopy"
 )
 
 func init() {

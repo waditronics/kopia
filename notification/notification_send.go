@@ -11,8 +11,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/grpcapi"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/grpcapi"
 	"github.com/kopia/kopia/notification/notifydata"
 	"github.com/kopia/kopia/notification/notifyprofile"
 	"github.com/kopia/kopia/notification/notifytemplate"

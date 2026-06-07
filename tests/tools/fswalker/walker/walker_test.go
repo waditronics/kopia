@@ -10,7 +10,7 @@ import (
 	fspb "github.com/google/fswalker/proto/fswalker"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/testlogging"
+	"github.com/kopia/kopia/infernal/testlogging"
 	"github.com/kopia/kopia/tests/testdirtree"
 )
 

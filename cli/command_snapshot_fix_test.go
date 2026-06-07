@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/kopia/kopia/cli"
-	"github.com/kopia/kopia/internal/testutil"
+	"github.com/kopia/kopia/infernal/testutil"
 	"github.com/kopia/kopia/repo/content"
 	"github.com/kopia/kopia/repo/object"
 	"github.com/kopia/kopia/snapshot"

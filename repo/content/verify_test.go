@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/blobtesting"
-	"github.com/kopia/kopia/internal/epoch"
-	"github.com/kopia/kopia/internal/gather"
-	"github.com/kopia/kopia/internal/testlogging"
+	"github.com/kopia/kopia/infernal/blobtesting"
+	"github.com/kopia/kopia/infernal/epoch"
+	"github.com/kopia/kopia/infernal/gather"
+	"github.com/kopia/kopia/infernal/testlogging"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/content/index"
 	"github.com/kopia/kopia/repo/format"

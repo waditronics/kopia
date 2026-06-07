@@ -5,7 +5,7 @@ import (
 	"context"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/timetrack"
+	"github.com/kopia/kopia/infernal/timetrack"
 )
 
 type loggingOptions struct {

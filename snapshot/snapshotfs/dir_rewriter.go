@@ -10,9 +10,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/bigmap"
-	"github.com/kopia/kopia/internal/impossible"
-	"github.com/kopia/kopia/internal/workshare"
+	"github.com/kopia/kopia/infernal/bigmap"
+	"github.com/kopia/kopia/infernal/impossible"
+	"github.com/kopia/kopia/infernal/workshare"
 	"github.com/kopia/kopia/repo"
 	"github.com/kopia/kopia/repo/compression"
 	"github.com/kopia/kopia/repo/logging"

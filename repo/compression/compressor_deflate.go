@@ -7,7 +7,7 @@ import (
 	"github.com/klauspost/compress/flate"
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/iocopy"
+	"github.com/kopia/kopia/infernal/iocopy"
 )
 
 func init() {

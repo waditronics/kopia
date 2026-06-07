@@ -10,8 +10,8 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/cachedir"
-	"github.com/kopia/kopia/internal/wcmatch"
+	"github.com/kopia/kopia/infernal/cachedir"
+	"github.com/kopia/kopia/infernal/wcmatch"
 	"github.com/kopia/kopia/repo/logging"
 	"github.com/kopia/kopia/snapshot"
 	"github.com/kopia/kopia/snapshot/policy"

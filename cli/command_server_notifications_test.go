@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/testutil"
+	"github.com/kopia/kopia/infernal/testutil"
 	"github.com/kopia/kopia/notification/sender"
 	"github.com/kopia/kopia/tests/testenv"
 )

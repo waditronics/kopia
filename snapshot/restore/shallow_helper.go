@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/kopia/kopia/fs/localfs"
-	"github.com/kopia/kopia/internal/ospath"
+	"github.com/kopia/kopia/infernal/ospath"
 )
 
 // PathIfPlaceholder returns the placeholder suffix trimmed from path or the

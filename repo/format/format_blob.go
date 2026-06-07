@@ -9,8 +9,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/crypto"
-	"github.com/kopia/kopia/internal/gather"
+	"github.com/kopia/kopia/infernal/crypto"
+	"github.com/kopia/kopia/infernal/gather"
 	"github.com/kopia/kopia/repo/blob"
 )
 

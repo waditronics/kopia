@@ -10,8 +10,8 @@ import (
 	"github.com/edsrzf/mmap-go"
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/contentlog"
-	"github.com/kopia/kopia/internal/contentlog/logparam"
+	"github.com/kopia/kopia/infernal/contentlog"
+	"github.com/kopia/kopia/infernal/contentlog/logparam"
 )
 
 // mmapFile attempts mmap.Open() with exponential back-off to work around a rare issue

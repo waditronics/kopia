@@ -3,7 +3,7 @@ package endtoend_test
 import (
 	"testing"
 
-	"github.com/kopia/kopia/internal/testutil"
+	"github.com/kopia/kopia/infernal/testutil"
 	"github.com/kopia/kopia/repo/content"
 	"github.com/kopia/kopia/repo/manifest"
 	"github.com/kopia/kopia/snapshot/policy"

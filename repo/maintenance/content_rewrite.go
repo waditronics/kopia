@@ -10,11 +10,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/blobparam"
-	"github.com/kopia/kopia/internal/contentlog"
-	"github.com/kopia/kopia/internal/contentlog/logparam"
-	"github.com/kopia/kopia/internal/contentparam"
-	"github.com/kopia/kopia/internal/stats"
+	"github.com/kopia/kopia/infernal/blobparam"
+	"github.com/kopia/kopia/infernal/contentlog"
+	"github.com/kopia/kopia/infernal/contentlog/logparam"
+	"github.com/kopia/kopia/infernal/contentparam"
+	"github.com/kopia/kopia/infernal/stats"
 	"github.com/kopia/kopia/repo"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/content"

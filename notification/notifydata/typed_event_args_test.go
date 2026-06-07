@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	apipb "github.com/kopia/kopia/internal/grpcapi"
+	apipb "github.com/kopia/kopia/infernal/grpcapi"
 	"github.com/kopia/kopia/notification/notifydata"
 )
 

@@ -11,7 +11,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/term"
 
-	"github.com/kopia/kopia/internal/passwordpersist"
+	"github.com/kopia/kopia/infernal/passwordpersist"
 )
 
 func askForNewRepositoryPassword(out io.Writer) (string, error) {

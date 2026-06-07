@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/mockfs"
-	"github.com/kopia/kopia/internal/repotesting"
+	"github.com/kopia/kopia/infernal/mockfs"
+	"github.com/kopia/kopia/infernal/repotesting"
 	"github.com/kopia/kopia/snapshot"
 	"github.com/kopia/kopia/snapshot/snapshotfs"
 	"github.com/kopia/kopia/snapshot/upload"

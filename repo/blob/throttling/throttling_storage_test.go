@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/blobtesting"
-	"github.com/kopia/kopia/internal/gather"
-	"github.com/kopia/kopia/internal/testlogging"
+	"github.com/kopia/kopia/infernal/blobtesting"
+	"github.com/kopia/kopia/infernal/gather"
+	"github.com/kopia/kopia/infernal/testlogging"
 	"github.com/kopia/kopia/repo/blob"
 	bloblogging "github.com/kopia/kopia/repo/blob/logging"
 	"github.com/kopia/kopia/repo/blob/throttling"

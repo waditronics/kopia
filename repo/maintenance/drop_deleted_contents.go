@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/kopia/kopia/internal/contentlog"
-	"github.com/kopia/kopia/internal/contentlog/logparam"
+	"github.com/kopia/kopia/infernal/contentlog"
+	"github.com/kopia/kopia/infernal/contentlog/logparam"
 	"github.com/kopia/kopia/repo"
 	"github.com/kopia/kopia/repo/content/indexblob"
 	"github.com/kopia/kopia/repo/maintenancestats"

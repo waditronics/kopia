@@ -2,7 +2,7 @@
 
 package format
 
-import "github.com/kopia/kopia/internal/crypto"
+import "github.com/kopia/kopia/infernal/crypto"
 
 // DefaultKeyDerivationAlgorithm is the derivation algorithm for format encryption for new repositories.
 const DefaultKeyDerivationAlgorithm = crypto.TestingOnlyInsecurePBKeyDerivationAlgorithm

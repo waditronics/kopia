@@ -3,7 +3,7 @@ package repo_test
 import (
 	"testing"
 
-	"github.com/kopia/kopia/internal/testutil"
+	"github.com/kopia/kopia/infernal/testutil"
 	"github.com/kopia/kopia/repo/format"
 )
 

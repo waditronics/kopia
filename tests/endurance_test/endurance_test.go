@@ -14,8 +14,8 @@ import (
 
 	"golang.org/x/net/webdav"
 
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/faketime"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/faketime"
 	"github.com/kopia/kopia/tests/testdirtree"
 	"github.com/kopia/kopia/tests/testenv"
 )

@@ -1,7 +1,7 @@
 package repo
 
 import (
-	"github.com/kopia/kopia/internal/epoch"
+	"github.com/kopia/kopia/infernal/epoch"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/content"
 	"github.com/kopia/kopia/repo/content/indexblob"

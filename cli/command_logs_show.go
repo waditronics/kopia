@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/blobcrypto"
-	"github.com/kopia/kopia/internal/gather"
+	"github.com/kopia/kopia/infernal/blobcrypto"
+	"github.com/kopia/kopia/infernal/gather"
 	"github.com/kopia/kopia/repo"
 )
 

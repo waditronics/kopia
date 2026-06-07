@@ -18,11 +18,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/blobtesting"
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/gather"
-	"github.com/kopia/kopia/internal/retry"
-	"github.com/kopia/kopia/internal/testlogging"
+	"github.com/kopia/kopia/infernal/blobtesting"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/gather"
+	"github.com/kopia/kopia/infernal/retry"
+	"github.com/kopia/kopia/infernal/testlogging"
 	"github.com/kopia/kopia/repo/blob"
 )
 

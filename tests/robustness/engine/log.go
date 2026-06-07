@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kopia/kopia/internal/clock"
+	"github.com/kopia/kopia/infernal/clock"
 )
 
 // Log keeps track of the actions taken by the engine.

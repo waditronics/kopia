@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/repotesting"
+	"github.com/kopia/kopia/infernal/repotesting"
 	"github.com/kopia/kopia/repo/format"
 	"github.com/kopia/kopia/repo/object"
 )

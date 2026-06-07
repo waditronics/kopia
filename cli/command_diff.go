@@ -9,7 +9,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/diff"
+	"github.com/kopia/kopia/infernal/diff"
 	"github.com/kopia/kopia/repo"
 	"github.com/kopia/kopia/snapshot/snapshotfs"
 )

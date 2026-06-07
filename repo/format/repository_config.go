@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kopia/kopia/internal/feature"
+	"github.com/kopia/kopia/infernal/feature"
 )
 
 // RepositoryConfig describes the format of objects in a repository.

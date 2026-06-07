@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/kopia/kopia/internal/ospath"
+	"github.com/kopia/kopia/infernal/ospath"
 )
 
 // realOS is an implementation of osInterface that uses real operating system calls.

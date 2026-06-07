@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kopia/kopia/internal/clock"
-	"github.com/kopia/kopia/internal/timetrack"
+	"github.com/kopia/kopia/infernal/clock"
+	"github.com/kopia/kopia/infernal/timetrack"
 )
 
 func TestThrottler(t *testing.T) {

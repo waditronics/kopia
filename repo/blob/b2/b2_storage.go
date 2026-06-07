@@ -14,8 +14,8 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/kothar/go-backblaze.v0"
 
-	"github.com/kopia/kopia/internal/iocopy"
-	"github.com/kopia/kopia/internal/timestampmeta"
+	"github.com/kopia/kopia/infernal/iocopy"
+	"github.com/kopia/kopia/infernal/timestampmeta"
 	"github.com/kopia/kopia/repo/blob"
 	"github.com/kopia/kopia/repo/blob/retrying"
 	"github.com/kopia/kopia/repo/logging"

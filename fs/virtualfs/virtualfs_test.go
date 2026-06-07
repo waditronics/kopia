@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/kopia/kopia/fs"
-	"github.com/kopia/kopia/internal/testlogging"
+	"github.com/kopia/kopia/infernal/testlogging"
 )
 
 const (

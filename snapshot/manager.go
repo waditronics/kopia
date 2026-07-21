@@ -63,8 +63,11 @@ func sourceInfoFromLabels(labels map[string]string) SourceInfo {
 
 func sourceInfoToLabels(si SourceInfo) map[string]string {
 	m := map[string]string{
-		typeKey:       ManifestType,
-		HostnameLabel: si.Host,
+		typeKey: ManifestType,
+	}
+
+	if si.Host != "" {
+		m[HostnameLabel] = si.Host
 	}
 
 	if si.UserName != "" {

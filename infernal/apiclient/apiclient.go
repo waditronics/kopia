@@ -236,7 +236,10 @@ func NewKopiaAPIClient(options Options) (*KopiaAPIClient, error) {
 
 	if runtime.GOOS == "windows" && (strings.HasPrefix(options.BaseURL, "npipe+https://") || strings.HasPrefix(options.BaseURL, "npipe+http://")) {
 		prefix := "npipe+"
-		u, _ := net_url.Parse(strings.TrimPrefix(options.BaseURL, prefix))
+		u, err := net_url.Parse(strings.TrimPrefix(options.BaseURL, prefix))
+		if err != nil {
+			return nil, err
+		}
 		uri = u.Scheme + "://localhost"
 		pipeName := u.Path
 		tp, _ := transport.(*http.Transport)

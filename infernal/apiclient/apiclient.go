@@ -12,6 +12,7 @@ import (
 	"net/http/cookiejar"
 	net_url "net/url"
 	"regexp"
+	"runtime"
 	"strings"
 	"time"
 
@@ -230,6 +231,20 @@ func NewKopiaAPIClient(options Options) (*KopiaAPIClient, error) {
 		tp.DialContext = func(ctx context.Context, _, _ string) (net.Conn, error) {
 			dial, err := (&net.Dialer{}).DialContext(ctx, "unix", u.Path)
 			return dial, errors.Wrap(err, "Failed to connect to socket: "+options.BaseURL)
+		}
+	}
+
+	if runtime.GOOS == "windows" && (strings.HasPrefix(options.BaseURL, "npipe+https://") || strings.HasPrefix(options.BaseURL, "npipe+http://")) {
+		prefix := "npipe+"
+		u, _ := net_url.Parse(strings.TrimPrefix(options.BaseURL, prefix))
+		uri = u.Scheme + "://localhost"
+		pipeName := u.Path
+		tp, _ := transport.(*http.Transport)
+		transport = tp.Clone()
+		tp, _ = transport.(*http.Transport)
+		tp.DialContext = func(ctx context.Context, _, _ string) (net.Conn, error) {
+			dial, err := dialNamedPipe(ctx, pipeName)
+			return dial, errors.Wrap(err, "Failed to connect to named pipe: "+options.BaseURL)
 		}
 	}
 

@@ -13,6 +13,7 @@ import (
 	net_url "net/url"
 	"regexp"
 	"strings"
+	"time"
 
 	"github.com/pkg/errors"
 
@@ -203,6 +204,8 @@ type Options struct {
 	TrustedServerCertificateFingerprint string
 
 	LogRequests bool
+
+	Timeout time.Duration
 }
 
 // NewKopiaAPIClient creates a client for connecting to Kopia HTTP API.
@@ -249,6 +252,7 @@ func NewKopiaAPIClient(options Options) (*KopiaAPIClient, error) {
 		&http.Client{
 			Jar:       cj,
 			Transport: transport,
+			Timeout:   options.Timeout,
 		},
 		"",
 	}, nil

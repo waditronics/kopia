@@ -238,10 +238,10 @@ func NewKopiaAPIClient(options Options) (*KopiaAPIClient, error) {
 		prefix := "npipe+"
 		u, err := net_url.Parse(strings.TrimPrefix(options.BaseURL, prefix))
 		if err != nil {
-			return nil, err
+			return nil, errors.Wrap(err, "unable to parse BaseURL")
 		}
 		uri = u.Scheme + "://localhost"
-		pipeName := u.Path
+		pipeName := "\\\\.\\pipe\\" + strings.ReplaceAll(strings.TrimLeft(u.Path, "/"), "/", "\\")
 		tp, _ := transport.(*http.Transport)
 		transport = tp.Clone()
 		tp, _ = transport.(*http.Transport)
